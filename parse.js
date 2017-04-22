@@ -444,43 +444,45 @@ tools.ImportDir('original').then(result => {
     });
 
     // Generate test file
-    let html = '<!DOCTYPE html>\n' +
-        '<html lang="en">\n' +
-        '   <head>\n' +
-        '       <meta charset="UTF-8">\n' +
-        '       <link rel="stylesheet" href="./arty.css" />\n' +
-        '       <style>\n' +
-        '           html, body { margin: 0; padding: 0; }\n' +
-        '           svg { display: inline-block; color: #606060; }\n' +
-        '           svg:hover { color: #000; }\n' +
-        '           div { overflow: hidden; clear: both; }\n' +
-        '           span { float: left; margin: 8px; padding: 4px; border: 1px solid #ddd; position: relative; line-height: 0; }\n' +
-        '           span.alias { border-color: #f4f4f4; }\n' +
-        '           div.all span { margin: 16px; }\n' +
-        '           div.all span:after { content: attr(title); position: absolute; left: 0; right: 0; bottom: -30px; text-align: center; font: 12px / 14px sans-serif; word-wrap: break-word; }\n' +
-        '           div.all .shape-0 { stroke: #800; }\n' +
-        '           div.all .shape-1 { stroke: #080; }\n' +
-        '           div.all .shape-2 { stroke: #008; }\n' +
-        '           div.all .shape-3 { stroke: #880; }\n' +
-        '           div.all .shape-4 { stroke: #088; }\n' +
-        '           div.all .shape-5 { stroke: #808; }\n' +
-        '           div.all .shape-6 { stroke: #e20; }\n' +
-        '           div.all .shape-7 { stroke: #20e; }\n' +
-        '           div.all .shape-8 { stroke: #0e2; }\n' +
-        '           div.all .shape-9 { stroke: #480; }\n' +
-        '           div.all .shape-10 { stroke: #804; }\n' +
-        '           div.all .shape-11 { stroke: #048; }\n' +
-        '           div.all .shape-12 { stroke: #444; }\n' +
-        '           p { margin: 8px 8px 0; padding: 0; font: 16px / 24px sans-serif; }\n';
+    let html = `<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="./arty.css" />
+       <style>
+           html, body { margin: 0; padding: 0; }
+           svg { display: inline-block; color: #606060; }
+           svg:hover { color: #000; }
+           div { overflow: hidden; clear: both; }
+           span { float: left; margin: 8px; padding: 4px; border: 1px solid #ddd; position: relative; line-height: 0; }
+           span.alias { border-color: #f4f4f4; }
+           div.all span { margin: 16px; }
+           div.all span:after { content: attr(title); position: absolute; left: 0; right: 0; bottom: -30px; text-align: center; font: 12px / 14px sans-serif; word-wrap: break-word; }
+           div.all .shape-0 { stroke: #800; }
+           div.all .shape-1 { stroke: #080; }
+           div.all .shape-2 { stroke: #008; }
+           div.all .shape-3 { stroke: #880; }
+           div.all .shape-4 { stroke: #088; }
+           div.all .shape-5 { stroke: #808; }
+           div.all .shape-6 { stroke: #e20; }
+           div.all .shape-7 { stroke: #20e; }
+           div.all .shape-8 { stroke: #0e2; }
+           div.all .shape-9 { stroke: #480; }
+           div.all .shape-10 { stroke: #804; }
+           div.all .shape-11 { stroke: #048; }
+           div.all .shape-12 { stroke: #444; }
+           p { margin: 8px 8px 0; padding: 0; font: 16px / 24px sans-serif; }
+`;
     Object.keys(dimensions).forEach(key => {
         let item = dimensions[key];
-        html += '.side-' + key + ' svg { width: ' + (item.width / 8) + 'px; height: ' + (item.height / 8) + 'px; }\n';
+        html += '           .side-' + key + ' svg { width: ' + (item.width / 8) + 'px; height: ' + (item.height / 8) + 'px; }\n';
     });
-    html += '       </style>\n' +
-        '   </head>\n' +
-        '   <body>\n' +
-        '<p>Icons list for animated-icons. See <a href="https://github.com/cyberalien/animated-icons/">Git repository</a>.</p>\n' +
-        '<p>Hover icons set to restart animation.</p>\n';
+    html += `       </style>
+   </head>
+   <body>
+<p>Icons list for animated-icons. See <a href="https://github.com/cyberalien/animated-icons/">Git repository</a>.</p>
+<p>Hover icons set to restart animation.</p>
+`;
 
     function addSVG(title, code, alias) {
         html += '<span title="' + title + '"' + (alias ? ' class="alias"' : '') + '>\n\t' + code + '\n</span>\n';
@@ -526,21 +528,22 @@ tools.ImportDir('original').then(result => {
         html += '<p>Icons are shown in 1/8 of their size. To show icons in original size run "node parse debug".</p>\n';
     }
 
-    html += '<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>\n' +
-        '<script>\n' +
-        '$(document).ready(function() {\n' +
-        '   $(\'body\').addClass(\'arty-animated arty-animated2x\');\n' +
-        '   setTimeout(function() {\n' +
-        '       $(\'body\').removeClass(\'arty-animated arty-animated2x\');\n' +
-        '   }, 1500);\n' +
-        '   $(\'div\').mouseover(function() {\n' +
-        '       $(this).addClass(\'arty-animated\');\n' +
-        '   }).mouseout(function() {\n' +
-        '       $(this).removeClass(\'arty-animated\');\n' +
-        '   });\n' +
-        '});\n' +
-        '</script>\n';
-    html += '</body>\n</html>\n';
+    html += `<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+$(document).ready(function() {
+   $('body').addClass('arty-animated arty-animated2x');
+   setTimeout(function() {
+       $('body').removeClass('arty-animated arty-animated2x');
+   }, 1500);
+   $('div').mouseover(function() {
+       $(this).addClass('arty-animated');
+   }).mouseout(function() {
+       $(this).removeClass('arty-animated');
+   });
+});
+</script></body>
+</html>
+`;
     fs.writeFileSync('docs/index.html', html, 'utf8');
 
     console.log('Parsed ' + collection.length() + ' icons.');
