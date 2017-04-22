@@ -471,7 +471,9 @@ tools.ImportDir('original').then(result => {
     });
     html += '       </style>' +
         '   </head>' +
-        '   <body><p>Hover icons set to restart animation.</p>';
+        '   <body>' +
+        '<p>Icons list for animated-icons. See <a href="https://github.com/cyberalien/animated-icons/">Git repository</a>.</p>' +
+        '<p>Hover icons set to restart animation.</p>';
 
     function addSVG(title, code, alias) {
         html += '<span title="' + title + '"' + (alias ? ' class="alias"' : '') + '>' + code + '</span>';
@@ -532,7 +534,7 @@ tools.ImportDir('original').then(result => {
         '});' +
         '</script>';
     html += '</body></html>';
-    fs.writeFileSync('final/test.html', html, 'utf8');
+    fs.writeFileSync('docs/index.html', html, 'utf8');
 
     console.log('Parsed ' + collection.length() + ' icons.');
 }).catch(err => {

@@ -6,7 +6,7 @@ Some icons do not have stroke, so they have basic opacity fill animation instead
 
 ## Sample
 
-See final/test.html
+See final/index.html
 
 
 ## How to use it
