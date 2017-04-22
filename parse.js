@@ -423,6 +423,7 @@ tools.ImportDir('original').then(result => {
     css += '}';
 
     fs.writeFileSync('final/arty.css', css, 'utf8');
+    fs.writeFileSync('docs/arty.css', css, 'utf8');
 
     // Filter icons by dimensions
     let dimensions = {};
