@@ -1,0 +1,14 @@
+{
+  "name": "@cyberalien/arty-icons",
+  "version": "",
+  "description": "Animated SVG icons set",
+  "main": "parse.js",
+  "scripts": {
+    "build": "node parse"
+  },
+  "author": "Vjacheslav Trushkin <cyberalien@gmail.com> (artodia.com)",
+  "license": "MIT",
+  "dependencies": {
+    "simple-svg-tools": "*"
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="192px" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>arty-stroke-24-filters</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Set-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="24x24-(208)" transform="translate(-840.000000, -8.000000)" stroke="#000000">
+            <g id="filters" transform="translate(852.000000, 16.000000)">
+                <path d="M20,0 L20,72" id="Line" stroke-width="16"></path>
+                <path d="M20,128 L20,176" id="Line-Copy-3" stroke-width="16"></path>
+                <path d="M0,100 L40,100" id="Line-Copy-4" stroke-width="24"></path>
+                <path d="M84,0 L84,24" id="Line-Copy-7" stroke-width="16"></path>
+                <path d="M84,80 L84,176" id="Line-Copy-6" stroke-width="16"></path>
+                <path d="M64,52 L104,52" id="Line-Copy-5" stroke-width="24"></path>
+                <path d="M148,0 L148,88" id="Line-Copy-10" stroke-width="16"></path>
+                <path d="M148,144 L148,176" id="Line-Copy-9" stroke-width="16"></path>
+                <path d="M128,116 L168,116" id="Line-Copy-8" stroke-width="24"></path>
+            </g>
+        </g>
+    </g>
+</svg>

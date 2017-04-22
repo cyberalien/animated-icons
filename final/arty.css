@@ -1,0 +1,110 @@
+@supports (animation: foo 1s) and (not (-ms-ime-align: auto)) and (not (overflow: -webkit-marquee)) {
+.arty-animated .animate-fill { animation: arty-svg-fill 0s forwards; opacity: 0; }
+@keyframes arty-svg-fill { from { opacity: 0; } to { opacity: 1; } }
+.arty-animated .stroke-length-4 { animation: arty-svg-length-4 0s forwards; stroke-dasharray: 4; stroke-dashoffset: 4; }
+@keyframes arty-svg-length-4 { from { stroke-dashoffset: 4; } to { stroke-dashoffset: 0; } }
+.arty-animated .stroke-length-6 { animation: arty-svg-length-6 0s forwards; stroke-dasharray: 6; stroke-dashoffset: 6; }
+@keyframes arty-svg-length-6 { from { stroke-dashoffset: 6; } to { stroke-dashoffset: 0; } }
+.arty-animated .stroke-length-9 { animation: arty-svg-length-9 0s forwards; stroke-dasharray: 9; stroke-dashoffset: 9; }
+@keyframes arty-svg-length-9 { from { stroke-dashoffset: 9; } to { stroke-dashoffset: 0; } }
+.arty-animated .stroke-length-13 { animation: arty-svg-length-13 0s forwards; stroke-dasharray: 13; stroke-dashoffset: 13; }
+@keyframes arty-svg-length-13 { from { stroke-dashoffset: 13; } to { stroke-dashoffset: 0; } }
+.arty-animated .stroke-length-20 { animation: arty-svg-length-20 0s forwards; stroke-dasharray: 20; stroke-dashoffset: 20; }
+@keyframes arty-svg-length-20 { from { stroke-dashoffset: 20; } to { stroke-dashoffset: 0; } }
+.arty-animated .stroke-length-30 { animation: arty-svg-length-30 0s forwards; stroke-dasharray: 30; stroke-dashoffset: 30; }
+@keyframes arty-svg-length-30 { from { stroke-dashoffset: 30; } to { stroke-dashoffset: 0; } }
+.arty-animated .stroke-length-45 { animation: arty-svg-length-45 0s forwards; stroke-dasharray: 45; stroke-dashoffset: 45; }
+@keyframes arty-svg-length-45 { from { stroke-dashoffset: 45; } to { stroke-dashoffset: 0; } }
+.arty-animated .stroke-length-68 { animation: arty-svg-length-68 0s forwards; stroke-dasharray: 68; stroke-dashoffset: 68; }
+@keyframes arty-svg-length-68 { from { stroke-dashoffset: 68; } to { stroke-dashoffset: 0; } }
+.arty-animated .stroke-length-102 { animation: arty-svg-length-102 0s forwards; stroke-dasharray: 102; stroke-dashoffset: 102; }
+@keyframes arty-svg-length-102 { from { stroke-dashoffset: 102; } to { stroke-dashoffset: 0; } }
+.arty-animated .stroke-length-153 { animation: arty-svg-length-153 0s forwards; stroke-dasharray: 153; stroke-dashoffset: 153; }
+@keyframes arty-svg-length-153 { from { stroke-dashoffset: 153; } to { stroke-dashoffset: 0; } }
+.arty-animated .stroke-length-230 { animation: arty-svg-length-230 0s forwards; stroke-dasharray: 230; stroke-dashoffset: 230; }
+@keyframes arty-svg-length-230 { from { stroke-dashoffset: 230; } to { stroke-dashoffset: 0; } }
+.arty-animated .stroke-length-345 { animation: arty-svg-length-345 0s forwards; stroke-dasharray: 345; stroke-dashoffset: 345; }
+@keyframes arty-svg-length-345 { from { stroke-dashoffset: 345; } to { stroke-dashoffset: 0; } }
+.arty-animated .stroke-length-500 { animation: arty-svg-length-500 0s forwards; stroke-dasharray: 500; stroke-dashoffset: 500; }
+@keyframes arty-svg-length-500 { from { stroke-dashoffset: 500; } to { stroke-dashoffset: 0; } }
+.arty-animated .animation-delay-0 { animation-delay: 0s; }
+.arty-animated .animation-duration-0 { animation-duration: 0.3s; }
+.arty-animated2x .animation-delay-0 { animation-delay: 0s; }
+.arty-animated2x .animation-duration-0 { animation-duration: 0.15s; }
+.arty-animated .animation-delay-1 { animation-delay: 0.1s; }
+.arty-animated .animation-duration-1 { animation-duration: 0.4s; }
+.arty-animated2x .animation-delay-1 { animation-delay: 0.05s; }
+.arty-animated2x .animation-duration-1 { animation-duration: 0.2s; }
+.arty-animated .animation-delay-2 { animation-delay: 0.2s; }
+.arty-animated .animation-duration-2 { animation-duration: 0.5s; }
+.arty-animated2x .animation-delay-2 { animation-delay: 0.1s; }
+.arty-animated2x .animation-duration-2 { animation-duration: 0.25s; }
+.arty-animated .animation-delay-3 { animation-delay: 0.30000000000000004s; }
+.arty-animated .animation-duration-3 { animation-duration: 0.6000000000000001s; }
+.arty-animated2x .animation-delay-3 { animation-delay: 0.15000000000000002s; }
+.arty-animated2x .animation-duration-3 { animation-duration: 0.30000000000000004s; }
+.arty-animated .animation-delay-4 { animation-delay: 0.4s; }
+.arty-animated .animation-duration-4 { animation-duration: 0.7s; }
+.arty-animated2x .animation-delay-4 { animation-delay: 0.2s; }
+.arty-animated2x .animation-duration-4 { animation-duration: 0.35s; }
+.arty-animated .animation-delay-5 { animation-delay: 0.5s; }
+.arty-animated .animation-duration-5 { animation-duration: 0.8s; }
+.arty-animated2x .animation-delay-5 { animation-delay: 0.25s; }
+.arty-animated2x .animation-duration-5 { animation-duration: 0.4s; }
+.arty-animated .animation-delay-6 { animation-delay: 0.6000000000000001s; }
+.arty-animated .animation-duration-6 { animation-duration: 0.9000000000000001s; }
+.arty-animated2x .animation-delay-6 { animation-delay: 0.30000000000000004s; }
+.arty-animated2x .animation-duration-6 { animation-duration: 0.45000000000000007s; }
+.arty-animated .animation-delay-7 { animation-delay: 0.7000000000000001s; }
+.arty-animated .animation-duration-7 { animation-duration: 1s; }
+.arty-animated2x .animation-delay-7 { animation-delay: 0.35000000000000003s; }
+.arty-animated2x .animation-duration-7 { animation-duration: 0.5s; }
+.arty-animated .animation-delay-8 { animation-delay: 0.8s; }
+.arty-animated .animation-duration-8 { animation-duration: 1.1s; }
+.arty-animated2x .animation-delay-8 { animation-delay: 0.4s; }
+.arty-animated2x .animation-duration-8 { animation-duration: 0.55s; }
+.arty-animated .animation-delay-9 { animation-delay: 0.9s; }
+.arty-animated .animation-duration-9 { animation-duration: 1.2s; }
+.arty-animated2x .animation-delay-9 { animation-delay: 0.45s; }
+.arty-animated2x .animation-duration-9 { animation-duration: 0.6s; }
+.arty-animated .animation-delay-10 { animation-delay: 1s; }
+.arty-animated .animation-duration-10 { animation-duration: 1.3s; }
+.arty-animated2x .animation-delay-10 { animation-delay: 0.5s; }
+.arty-animated2x .animation-duration-10 { animation-duration: 0.65s; }
+.arty-animated .animation-delay-11 { animation-delay: 1.1s; }
+.arty-animated .animation-duration-11 { animation-duration: 1.4000000000000001s; }
+.arty-animated2x .animation-delay-11 { animation-delay: 0.55s; }
+.arty-animated2x .animation-duration-11 { animation-duration: 0.7000000000000001s; }
+.arty-animated .animation-delay-12 { animation-delay: 1.2000000000000002s; }
+.arty-animated .animation-duration-12 { animation-duration: 1.5000000000000002s; }
+.arty-animated2x .animation-delay-12 { animation-delay: 0.6000000000000001s; }
+.arty-animated2x .animation-duration-12 { animation-duration: 0.7500000000000001s; }
+.arty-animated .animation-delay-13 { animation-delay: 1.3s; }
+.arty-animated .animation-duration-13 { animation-duration: 1.6s; }
+.arty-animated2x .animation-delay-13 { animation-delay: 0.65s; }
+.arty-animated2x .animation-duration-13 { animation-duration: 0.8s; }
+.arty-animated .animation-delay-14 { animation-delay: 1.4000000000000001s; }
+.arty-animated .animation-duration-14 { animation-duration: 1.7000000000000002s; }
+.arty-animated2x .animation-delay-14 { animation-delay: 0.7000000000000001s; }
+.arty-animated2x .animation-duration-14 { animation-duration: 0.8500000000000001s; }
+.arty-animated .animation-delay-15 { animation-delay: 1.5s; }
+.arty-animated .animation-duration-15 { animation-duration: 1.8s; }
+.arty-animated2x .animation-delay-15 { animation-delay: 0.75s; }
+.arty-animated2x .animation-duration-15 { animation-duration: 0.9s; }
+.arty-animated .animation-delay-16 { animation-delay: 1.6s; }
+.arty-animated .animation-duration-16 { animation-duration: 1.9000000000000001s; }
+.arty-animated2x .animation-delay-16 { animation-delay: 0.8s; }
+.arty-animated2x .animation-duration-16 { animation-duration: 0.9500000000000001s; }
+.arty-animated .animation-delay-17 { animation-delay: 1.7000000000000002s; }
+.arty-animated .animation-duration-17 { animation-duration: 2s; }
+.arty-animated2x .animation-delay-17 { animation-delay: 0.8500000000000001s; }
+.arty-animated2x .animation-duration-17 { animation-duration: 1s; }
+.arty-animated .animation-delay-18 { animation-delay: 1.8s; }
+.arty-animated .animation-duration-18 { animation-duration: 2.1s; }
+.arty-animated2x .animation-delay-18 { animation-delay: 0.9s; }
+.arty-animated2x .animation-duration-18 { animation-duration: 1.05s; }
+.arty-animated .animation-delay-19 { animation-delay: 1.9000000000000001s; }
+.arty-animated .animation-duration-19 { animation-duration: 2.2s; }
+.arty-animated2x .animation-delay-19 { animation-delay: 0.9500000000000001s; }
+.arty-animated2x .animation-duration-19 { animation-duration: 1.1s; }
+}
