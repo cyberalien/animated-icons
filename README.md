@@ -6,7 +6,7 @@ Some icons do not have stroke, so they have basic opacity fill animation instead
 
 ## Sample
 
-See final/index.html
+See https://cyberalien.github.io/animated-icons/
 
 
 ## How to use it
