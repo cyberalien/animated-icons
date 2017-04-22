@@ -157,6 +157,10 @@
 			"parent": "arty-stroke-16-caret-up",
 			"rotate": 1
 		},
+		"arty-stroke-16-carets-horizontal-outline": {
+			"parent": "arty-stroke-16-carets-vertical-outline",
+			"rotate": 3
+		},
 		"arty-stroke-16-carets-horizontal": {
 			"parent": "arty-stroke-16-carets-vertical",
 			"rotate": 3
