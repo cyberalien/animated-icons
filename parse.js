@@ -5,8 +5,37 @@
 
 const fs = require('fs');
 const tools = require('simple-svg-tools');
-const transform = require('simple-svg-tools/src/ssvg/transform');
 const Animate = require('./animate');
+
+/**
+ * Return style
+ *
+ * @param attr
+ * @returns {string}
+ */
+function transform(attr) {
+    var rotate = attr.rotate ? attr.rotate : 0;
+
+    function rotation() {
+        while (rotate < 1) {
+            rotate += 4;
+        }
+        while (rotate > 4) {
+            rotate -= 4;
+        }
+        return 'rotate(' + (rotate * 90) + 'deg)';
+    }
+
+    if (attr.vFlip && attr.hFlip) {
+        rotate += 2;
+        return rotation();
+    }
+
+    if (attr.vFlip || attr.hFlip) {
+        return (rotate ? rotation() + ' ' : '') + 'scale(' + (attr.hFlip ? '-' : '') + '1, ' + (attr.vFlip ? '-' : '') + '1)';
+    }
+    return rotation();
+}
 
 /**
  * Animation config
@@ -498,7 +527,7 @@ tools.ImportDir('original').then(result => {
                     return;
                 }
 
-                let style = transform(alias.rotate ? alias.rotate : 0, alias.hFlip ? alias.hFlip : false, alias.vFlip ? alias.vFlip : false);
+                let style = transform(alias);
                 style = '-ms-transform: ' + style+ '; -webkit-transform: ' + style + '; transform: ' + style + ';';
                 addSVG(alias.name, svg.toString().replace('<svg ', '<svg style="' + style + '"'), true)
             });

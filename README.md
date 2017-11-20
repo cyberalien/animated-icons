@@ -16,11 +16,11 @@ To use these icons in your projects you need to include stylesheet and SimpleSVG
 
 Add this to document header:
 
-    <link rel="stylesheet" href="https://cdn.simplesvg.com/css/arty.css" />
+    <link rel="stylesheet" href="https://code.simplesvg.com/css/arty.css" />
     
 Add this to document before ```</body>``` or in header:
 
-    <script src="//cdn.simplesvg.com/js/"></script>
+    <script src="//code.simplesvg.com/latest/simple-svg.min.js"></script>
     
 To use any icon from set write line like this (replace data-icon value with icon name):
 

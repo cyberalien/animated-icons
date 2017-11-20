@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="192px" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>arty-stroke-24-caret-up copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Arrows" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="24x24-(208)" transform="translate(-2088.000000, -8.000000)">
+            <g id="_slices" transform="translate(8.000000, 8.000000)"></g>
+            <g id="carets" transform="translate(1920.000000, 40.000000)" fill="#000000">
+                <polygon id="up-fill-copy" points="208 88 264 32 320 88"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

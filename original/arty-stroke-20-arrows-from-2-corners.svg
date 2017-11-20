@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>arty-stroke-20-arrows-from-2-corners</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Arrows" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="20x20-(176)" transform="translate(-888.000000, -8.000000)">
+            <g id="_slices" transform="translate(8.000000, 8.000000)"></g>
+            <g id="arrows" transform="translate(719.000000, 15.000000)" stroke-linecap="round" stroke="#000000" stroke-width="16">
+                <g id="from-2" transform="translate(177.000000, 1.000000)">
+                    <path d="M56,88 L16,88" id="Path-6" stroke-linejoin="round"></path>
+                    <path d="M56,88 L56,128" id="Path-6-Copy" stroke-linejoin="round"></path>
+                    <path d="M88,56 L88,16" id="Path-3" stroke-linejoin="round"></path>
+                    <path d="M88,56 L128,56" id="Path-3-Copy" stroke-linejoin="round"></path>
+                    <path d="M0,144 L52,92" id="Path-2"></path>
+                    <path d="M144,0 L92,52" id="Path-11"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

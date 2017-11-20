@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>arty-stroke-16-arrows-horizontal</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Arrows" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="16x16-(144)-arrows" transform="translate(-440.000000, -8.000000)">
+            <g id="_slices" transform="translate(8.000000, 8.000000)"></g>
             <g id="arrows,-2-sides" transform="translate(448.000000, 24.000000)" stroke="#000000" stroke-width="16" stroke-linecap="round">
                 <path d="M48,72 L104,72" id="right-line"></path>
                 <path d="M64,24 L8,24" id="left-line"></path>
@@ -14,7 +15,6 @@
                 <path d="M0,24 L24,0" id="Path-5" stroke-linejoin="round"></path>
                 <path d="M0,24 L24,48" id="Path-5-Copy-2" stroke-linejoin="round"></path>
             </g>
-            <g id="export" transform="translate(8.000000, 8.000000)"></g>
         </g>
     </g>
 </svg>
