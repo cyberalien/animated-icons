@@ -215,6 +215,27 @@ let customAnimations = {
     'caret-up-outline': {
         fill: true
     },
+    'arc-270': {
+        copy: {2: 1},
+        extraDelay: {
+            1: -2,
+            2: -2
+        }
+    },
+    'arc-180': {
+        copy: {2: 1},
+        extraDelay: {
+            1: -2,
+            2: -2
+        }
+    },
+    'arc-90': {
+        copy: {2: 1},
+        extraDelay: {
+            1: -2,
+            2: -2
+        }
+    },
 };
 
 /**

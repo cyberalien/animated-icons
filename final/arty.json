@@ -1,5 +1,20 @@
 {
 	"icons": {
+		"arty-stroke-16-arc-180": {
+			"body": "<g stroke-linecap=\"round\" stroke=\"currentColor\" stroke-width=\"16\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M64 24c22.143 0 40 17.906 40 40s-17.863 40-40 40h-8\" class=\"animation-delay-0 animation-duration-11 animate-stroke stroke-length-153\"/><path d=\"M40 104l16 16\" class=\"animation-delay-9 animation-duration-2 animate-stroke stroke-length-30\"/><path d=\"M40 104l16-16\" class=\"animation-delay-9 animation-duration-2 animate-stroke stroke-length-30\"/></g>",
+			"width": 128,
+			"height": 128
+		},
+		"arty-stroke-16-arc-270": {
+			"body": "<g stroke-linecap=\"round\" stroke-width=\"16\" stroke=\"currentColor\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M64 24c22.143 0 40 17.906 40 40s-17.863 40-40 40-40-17.906-40-40v-8\" class=\"animation-delay-0 animation-duration-12 animate-stroke stroke-length-230\"/><path d=\"M24 40L8 56\" class=\"animation-delay-10 animation-duration-1 animate-stroke stroke-length-30\"/><path d=\"M24 40l16 16\" class=\"animation-delay-10 animation-duration-1 animate-stroke stroke-length-30\"/></g>",
+			"width": 128,
+			"height": 128
+		},
+		"arty-stroke-16-arc-90": {
+			"body": "<g stroke=\"currentColor\" stroke-width=\"16\" fill=\"none\" fill-rule=\"evenodd\" stroke-linecap=\"round\"><path d=\"M64 24c22.143 0 40 17.906 40 40v8\" class=\"animation-delay-0 animation-duration-10 animate-stroke stroke-length-102\"/><path d=\"M104 88l16-16\" class=\"animation-delay-8 animation-duration-3 animate-stroke stroke-length-30\"/><path d=\"M104 88L88 72\" class=\"animation-delay-8 animation-duration-3 animate-stroke stroke-length-30\"/></g>",
+			"width": 128,
+			"height": 128
+		},
 		"arty-stroke-16-arrow-left": {
 			"body": "<g stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M120 64H16\" class=\"animation-delay-0 animation-duration-8 animate-stroke stroke-length-153\"/><path d=\"M8 64l40 40\" stroke-linejoin=\"round\" class=\"animation-delay-8 animation-duration-5 animate-stroke stroke-length-68\"/><path d=\"M8 64l40-40\" stroke-linejoin=\"round\" class=\"animation-delay-8 animation-duration-5 animate-stroke stroke-length-68\"/></g>",
 			"width": 128,
@@ -115,6 +130,21 @@
 			"width": 128,
 			"height": 128
 		},
+		"arty-stroke-20-arc-180": {
+			"body": "<g stroke-linecap=\"round\" stroke=\"currentColor\" stroke-width=\"16\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M80 32c26.571 0 48 21.488 48 48s-21.435 48-48 48H64\" class=\"animation-delay-0 animation-duration-11 animate-stroke stroke-length-230\"/><path d=\"M48 128l24 24\" class=\"animation-delay-9 animation-duration-2 animate-stroke stroke-length-45\"/><path d=\"M48 128l24-24\" class=\"animation-delay-9 animation-duration-2 animate-stroke stroke-length-45\"/></g>",
+			"width": 160,
+			"height": 160
+		},
+		"arty-stroke-20-arc-270": {
+			"body": "<g stroke-linecap=\"round\" stroke-width=\"16\" stroke=\"currentColor\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M80 32c26.571 0 48 21.488 48 48s-21.435 48-48 48-48-21.488-48-48V64\" class=\"animation-delay-0 animation-duration-11 animate-stroke stroke-length-345\"/><path d=\"M32 56L8 80\" class=\"animation-delay-9 animation-duration-2 animate-stroke stroke-length-45\"/><path d=\"M32 56l24 24\" class=\"animation-delay-9 animation-duration-2 animate-stroke stroke-length-45\"/></g>",
+			"width": 160,
+			"height": 160
+		},
+		"arty-stroke-20-arc-90": {
+			"body": "<g stroke=\"currentColor\" stroke-width=\"16\" fill=\"none\" fill-rule=\"evenodd\" stroke-linecap=\"round\"><path d=\"M80 32c26.571 0 48 21.488 48 48v16\" class=\"animation-delay-0 animation-duration-9 animate-stroke stroke-length-102\"/><path d=\"M128 112l24-24\" class=\"animation-delay-7 animation-duration-4 animate-stroke stroke-length-45\"/><path d=\"M128 112l-24-24\" class=\"animation-delay-7 animation-duration-4 animate-stroke stroke-length-45\"/></g>",
+			"width": 160,
+			"height": 160
+		},
 		"arty-stroke-20-arrow-left": {
 			"body": "<g stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M152 80H16\" class=\"animation-delay-0 animation-duration-9 animate-stroke stroke-length-153\"/><path d=\"M8 80l48 48\" stroke-linejoin=\"round\" class=\"animation-delay-9 animation-duration-4 animate-stroke stroke-length-102\"/><path d=\"M8 80l48-48\" stroke-linejoin=\"round\" class=\"animation-delay-9 animation-duration-4 animate-stroke stroke-length-102\"/></g>",
 			"width": 160,
@@ -194,6 +224,15 @@
 			"body": "<g stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M68 92L8 152\" class=\"animation-delay-10 animation-duration-3 animate-stroke stroke-length-102\"/><path d=\"M70.305 90.037C61.468 81.271 56 69.158 56 56c0-26.51 21.429-48 48-48s48 21.49 48 48-21.433 48-48 48c-13.423 0-25.039-5.376-33.695-13.963z\" class=\"animation-delay-0 animation-duration-10 animate-stroke stroke-length-345\"/></g>",
 			"width": 160,
 			"height": 160
+		},
+		"arty-stroke-24-arc-180": {
+			"body": "<g stroke-linecap=\"round\" stroke=\"currentColor\" stroke-width=\"16\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M96 32c35.429 0 64 28.65 64 64s-28.58 64-64 64H80\" class=\"animation-delay-0 animation-duration-11 animate-stroke stroke-length-345\"/><path d=\"M64 160l24 24\" class=\"animation-delay-9 animation-duration-2 animate-stroke stroke-length-45\"/><path d=\"M64 160l24-24\" class=\"animation-delay-9 animation-duration-2 animate-stroke stroke-length-45\"/></g>"
+		},
+		"arty-stroke-24-arc-270": {
+			"body": "<g stroke-linecap=\"round\" stroke-width=\"16\" stroke=\"currentColor\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M96 32c35.429 0 64 28.65 64 64s-28.58 64-64 64-64-28.65-64-64V80\" class=\"animation-delay-0 animation-duration-12 animate-stroke stroke-length-500\"/><path d=\"M32 64L8 88\" class=\"animation-delay-10 animation-duration-1 animate-stroke stroke-length-45\"/><path d=\"M32 64l24 24\" class=\"animation-delay-10 animation-duration-1 animate-stroke stroke-length-45\"/></g>"
+		},
+		"arty-stroke-24-arc-90": {
+			"body": "<g stroke-linecap=\"round\" stroke=\"currentColor\" stroke-width=\"16\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M96 32c35.429 0 64 28.65 64 64v16\" class=\"animation-delay-0 animation-duration-10 animate-stroke stroke-length-153\"/><path d=\"M160 128l24-24\" class=\"animation-delay-8 animation-duration-3 animate-stroke stroke-length-45\"/><path d=\"M160 128l-24-24\" class=\"animation-delay-8 animation-duration-3 animate-stroke stroke-length-45\"/></g>"
 		},
 		"arty-stroke-24-arrow-left": {
 			"body": "<g stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M184 96H16\" class=\"animation-delay-0 animation-duration-9 animate-stroke stroke-length-230\"/><path d=\"M8 96l56 56\" stroke-linejoin=\"round\" class=\"animation-delay-9 animation-duration-4 animate-stroke stroke-length-102\"/><path d=\"M8 96l56-56\" stroke-linejoin=\"round\" class=\"animation-delay-9 animation-duration-4 animate-stroke stroke-length-102\"/></g>"
