@@ -16,7 +16,7 @@ To use these icons in your projects you need to include stylesheet and SimpleSVG
 
 Add this to document header:
 
-    <link rel="stylesheet" href="https://code.simplesvg.com/css/arty.css" />
+    <link rel="stylesheet" href="https://code.simplesvg.com/css/arty-animated.css" />
     
 Add this to document before ```</body>``` or in header:
 
@@ -24,7 +24,7 @@ Add this to document before ```</body>``` or in header:
     
 To use any icon from set write line like this (replace data-icon value with icon name):
 
-    <span class="simple-svg arty-animated" data-icon="arty-stroke-16-close"></span>
+    <span class="simple-svg arty-animated" data-icon="arty-animated:16-close"></span>
 
 For list of available icons see [https://cyberalien.github.io/animated-icons/](https://cyberalien.github.io/animated-icons/)
 

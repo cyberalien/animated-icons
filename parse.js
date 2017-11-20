@@ -454,7 +454,7 @@ tools.ImportDir('original').then(result => {
     return tools.ExportDir(collection, 'final/svg');
 }).then(() => {
     // Export as JSON
-    return tools.ExportJSON(collection, 'final/arty.json', {
+    return tools.ExportJSON(collection, 'final/arty-animated.json', {
         minify: false,
         optimize: true
     });
@@ -485,8 +485,8 @@ tools.ImportDir('original').then(result => {
     // Close @supports
     css += '}';
 
-    fs.writeFileSync('final/arty.css', css, 'utf8');
-    fs.writeFileSync('docs/arty.css', css, 'utf8');
+    fs.writeFileSync('final/arty-animated.css', css, 'utf8');
+    fs.writeFileSync('docs/arty-animated.css', css, 'utf8');
 
     // Filter icons by dimensions
     let dimensions = {};
@@ -505,7 +505,7 @@ tools.ImportDir('original').then(result => {
 <html lang="en">
    <head>
        <meta charset="UTF-8">
-       <link rel="stylesheet" href="./arty.css" />
+       <link rel="stylesheet" href="./arty-animated.css" />
        <style>
            html, body { margin: 0; padding: 0; }
            svg { display: inline-block; color: #606060; }
