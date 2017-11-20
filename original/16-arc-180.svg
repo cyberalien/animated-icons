@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>16-arc-180</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Set-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="16x16-(144)-set-1" transform="translate(-1592.000000, -8.000000)">
+            <g id="_slices" transform="translate(8.000000, 8.000000)"></g>
+            <g id="arcs" transform="translate(1456.000000, 32.000000)" stroke-linecap="round" stroke="#000000" stroke-width="16">
+                <g id="180" transform="translate(176.000000, 0.000000)">
+                    <path d="M24,-2.4158453e-13 C46.1428571,-3.53241246e-13 64,17.906251 64,40 C64,62.093749 46.1374512,80 24,80 L16,80" id="Oval-2"></path>
+                    <path d="M0,80 L16,96" id="Line-2"></path>
+                    <path d="M0,80 L16,64" id="Line-2-Copy"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

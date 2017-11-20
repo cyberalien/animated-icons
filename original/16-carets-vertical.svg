@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>16-carets-vertical</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Arrows" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="16x16-(144)-arrows" transform="translate(-1304.000000, -8.000000)">
+            <g id="_slices" transform="translate(8.000000, 8.000000)"></g>
+            <g id="carets" transform="translate(1328.000000, 24.000000)" fill="#000000">
+                <polygon id="down-fill" transform="translate(40.000000, 76.000000) scale(1, -1) translate(-40.000000, -76.000000) " points="-3.55271368e-15 96 40 56 80 96"></polygon>
+                <polygon id="up-fill" points="0 40 40 0 80 40"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

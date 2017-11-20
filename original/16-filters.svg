@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>16-filters</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Set-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="16x16-(144)-set-1" transform="translate(-1016.000000, -8.000000)">
+            <g id="_slices" transform="translate(8.000000, 8.000000)"></g>
+            <g id="filters" transform="translate(1028.000000, 16.000000)" stroke="#000000" stroke-linecap="round">
+                <path d="M12,0 L12,40" id="Line" stroke-width="16"></path>
+                <path d="M12,96 L12,112" id="Line-Copy-3" stroke-width="16"></path>
+                <path d="M0,68 L24,68" id="Line-Copy-4" stroke-width="24"></path>
+                <path d="M52,0 L52,8" id="Line-Copy-7" stroke-width="16"></path>
+                <path d="M52,64 L52,112" id="Line-Copy-6" stroke-width="16"></path>
+                <path d="M40,36 L64,36" id="Line-Copy-5" stroke-width="24"></path>
+                <path d="M92,0 L92,48" id="Line-Copy-10" stroke-width="16"></path>
+                <path d="M92,104 L92,112" id="Line-Copy-9" stroke-width="16"></path>
+                <path d="M80,76 L104,76" id="Line-Copy-8" stroke-width="24"></path>
+            </g>
+        </g>
+    </g>
+</svg>

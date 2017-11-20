@@ -370,6 +370,11 @@ let collection;
 tools.ImportDir('original').then(result => {
     collection = result;
 
+    // Rename icons
+    collection.keys().forEach(key => {
+        collection.rename(key, 'arty-animated:' + key);
+    });
+
     // SVGO optimization
     return collection.promiseAll(svg => tools.SVGO(svg));
 }).then(() => {
@@ -419,9 +424,11 @@ tools.ImportDir('original').then(result => {
 }).then(() => {
     // Add aliases
     collection.forEach((svg, key) => {
-        let list = key.split('-'),
-            prefix = '',
+        let list = key.split(':'),
+            prefix = list.shift() + ':',
             temp = key;
+
+        list = list.shift().split('-');
 
         while (list.length) {
             if (aliases[temp] !== void 0) {

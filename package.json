@@ -9,6 +9,6 @@
   "author": "Vjacheslav Trushkin <cyberalien@gmail.com> (artodia.com)",
   "license": "MIT",
   "dependencies": {
-    "simple-svg-tools": "^1.0.9"
+    "simple-svg-tools": "^1.0.11"
   }
 }
