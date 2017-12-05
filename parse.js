@@ -367,13 +367,10 @@ try {
 
 // Do stuff
 let collection;
-tools.ImportDir('original').then(result => {
+tools.ImportDir('original', {
+    prefix: 'arty-animated'
+}).then(result => {
     collection = result;
-
-    // Rename icons
-    collection.keys().forEach(key => {
-        collection.rename(key, 'arty-animated:' + key);
-    });
 
     // SVGO optimization
     return collection.promiseAll(svg => tools.SVGO(svg));
@@ -424,11 +421,9 @@ tools.ImportDir('original').then(result => {
 }).then(() => {
     // Add aliases
     collection.forEach((svg, key) => {
-        let list = key.split(':'),
-            prefix = list.shift() + ':',
+        let list = key.split('-'),
+            prefix = '',
             temp = key;
-
-        list = list.shift().split('-');
 
         while (list.length) {
             if (aliases[temp] !== void 0) {
