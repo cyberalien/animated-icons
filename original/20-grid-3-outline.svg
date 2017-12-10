@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>20-grid-3-outline</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="20x20-(176)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1240.000000, -8.000000)">
+        <g id="_slices" transform="translate(8.000000, 8.000000)"></g>
+        <g id="grid-3-outline" transform="translate(1244.000000, 12.000000)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+            <circle id="Oval" cx="12" cy="12" r="12"></circle>
+            <circle id="Oval-Copy" cx="76" cy="12" r="12"></circle>
+            <circle id="Oval-Copy-2" cx="140" cy="12" r="12"></circle>
+            <circle id="Oval-Copy-5" cx="12" cy="76" r="12"></circle>
+            <circle id="Oval-Copy-4" cx="76" cy="76" r="12"></circle>
+            <circle id="Oval-Copy-3" cx="140" cy="76" r="12"></circle>
+            <circle id="Oval-Copy-8" cx="12" cy="140" r="12"></circle>
+            <circle id="Oval-Copy-7" cx="76" cy="140" r="12"></circle>
+            <circle id="Oval-Copy-6" cx="140" cy="140" r="12"></circle>
+        </g>
+    </g>
+</svg>

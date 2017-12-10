@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>16-small-chevron-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="16x16-(144)-arrows" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1880.000000, -8.000000)">
+        <g id="_slices" transform="translate(8.000000, 8.000000)"></g>
+        <g id="chevron-small" transform="translate(1928.000000, 40.000000)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16">
+            <path d="M0,32 L32,0" id="left"></path>
+            <path d="M0,32 L32,64" id="left-copy"></path>
+        </g>
+    </g>
+</svg>

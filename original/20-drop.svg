@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>20-drop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="20x20-(176)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-2120.000000, -8.000000)">
+        <g id="drop" transform="translate(1976.000000, 16.000000)">
+            <path d="M224,0 C224,0 176,56 176,96 C176,126 192,144 224,144 C256,144 272,125.999994 272,96 C272,56 224,0 224,0 Z" id="Oval-2-Copy-3" stroke="#000000" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M224,0 C224,0 176,56 176,96 C176,108.221726 178.655477,118.451845 183.966432,126.284674 L263.907866,62.7148478 C250.227159,30.5983519 224,0 224,0 Z" id="Oval-2-Copy-4" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

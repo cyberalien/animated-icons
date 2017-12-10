@@ -202,6 +202,13 @@ let customAnimations = {
     'arrow-left': {
         copy: {2: 1}
     },
+    'double-small-chevron-left': {
+        copy: {2: 0, 3: 1},
+        reverseAnimationOrder: true
+    },
+    'small-chevron-left': {
+        copy: {1: 0}
+    },
     'chevron-left': {
         copy: {1: 0}
     },
@@ -235,6 +242,10 @@ let customAnimations = {
             1: -2,
             2: -2
         }
+    },
+    home: {
+    	splitShortAnimations: false,
+    	copy: {1: 0, 3: 2}
     },
 };
 
