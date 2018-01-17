@@ -457,7 +457,9 @@ tools.ImportDir('original', {
     });
 
     // Export as optimized SVG icons
-    return tools.ExportDir(collection, 'final/svg');
+    return tools.ExportDir(collection, 'final/svg', {
+        includePrefix: false
+    });
 }).then(() => {
     // Export as JSON
     return tools.ExportJSON(collection, 'final/arty-animated.json', {
@@ -466,17 +468,19 @@ tools.ImportDir('original', {
     });
 }).then(() => {
     // Generate stylesheet
-    let css = '@supports (animation: foo 1s) and (not (-ms-ime-align: auto)) and (not (overflow: -webkit-marquee)) {\n',
-        i;
+//    let css = '@supports (animation: foo 1s) {\n';
+    let css = '@supports (animation: foo 1s) and (not (-ms-ime-align: auto)) and (not (overflow: -webkit-marquee)) {\n';
+    let i;
 
     // Fill
     css += '.arty-animated .animate-fill { animation: arty-svg-fill 0s forwards; opacity: 0; }\n';
+    // css += '.arty-animated .animate-stroke { }\n';
     css += '@keyframes arty-svg-fill { from { opacity: 0; } to { opacity: 1; } }\n';
 
     // Stroke
     breakPoints.forEach(bp => {
-        css += '.arty-animated .stroke-length-' + bp + ' { animation: arty-svg-length-' + bp + ' 0s forwards; stroke-dasharray: ' + bp + '; stroke-dashoffset: ' + bp + '; }\n';
-        css += '@keyframes arty-svg-length-' + bp + ' { from { stroke-dashoffset: ' + bp + '; } to { stroke-dashoffset: 0; } }\n';
+        css += '.arty-animated .stroke-length-' + bp + ' { animation: arty-svg-length-' + bp + ' 0s forwards; stroke-dasharray: ' + bp + '; stroke-dashoffset: ' + bp + '; opacity: 0; }\n';
+        css += '@keyframes arty-svg-length-' + bp + ' { 0% { stroke-dashoffset: ' + bp + '; opacity: 0; } 1% { stroke-dashoffset: ' + bp + '; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }\n';
     });
     for (i = 0; i < animationSegments; i++) {
         // 1x speed

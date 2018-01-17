@@ -1,32 +1,32 @@
 @supports (animation: foo 1s) and (not (-ms-ime-align: auto)) and (not (overflow: -webkit-marquee)) {
 .arty-animated .animate-fill { animation: arty-svg-fill 0s forwards; opacity: 0; }
 @keyframes arty-svg-fill { from { opacity: 0; } to { opacity: 1; } }
-.arty-animated .stroke-length-4 { animation: arty-svg-length-4 0s forwards; stroke-dasharray: 4; stroke-dashoffset: 4; }
-@keyframes arty-svg-length-4 { from { stroke-dashoffset: 4; } to { stroke-dashoffset: 0; } }
-.arty-animated .stroke-length-6 { animation: arty-svg-length-6 0s forwards; stroke-dasharray: 6; stroke-dashoffset: 6; }
-@keyframes arty-svg-length-6 { from { stroke-dashoffset: 6; } to { stroke-dashoffset: 0; } }
-.arty-animated .stroke-length-9 { animation: arty-svg-length-9 0s forwards; stroke-dasharray: 9; stroke-dashoffset: 9; }
-@keyframes arty-svg-length-9 { from { stroke-dashoffset: 9; } to { stroke-dashoffset: 0; } }
-.arty-animated .stroke-length-13 { animation: arty-svg-length-13 0s forwards; stroke-dasharray: 13; stroke-dashoffset: 13; }
-@keyframes arty-svg-length-13 { from { stroke-dashoffset: 13; } to { stroke-dashoffset: 0; } }
-.arty-animated .stroke-length-20 { animation: arty-svg-length-20 0s forwards; stroke-dasharray: 20; stroke-dashoffset: 20; }
-@keyframes arty-svg-length-20 { from { stroke-dashoffset: 20; } to { stroke-dashoffset: 0; } }
-.arty-animated .stroke-length-30 { animation: arty-svg-length-30 0s forwards; stroke-dasharray: 30; stroke-dashoffset: 30; }
-@keyframes arty-svg-length-30 { from { stroke-dashoffset: 30; } to { stroke-dashoffset: 0; } }
-.arty-animated .stroke-length-45 { animation: arty-svg-length-45 0s forwards; stroke-dasharray: 45; stroke-dashoffset: 45; }
-@keyframes arty-svg-length-45 { from { stroke-dashoffset: 45; } to { stroke-dashoffset: 0; } }
-.arty-animated .stroke-length-68 { animation: arty-svg-length-68 0s forwards; stroke-dasharray: 68; stroke-dashoffset: 68; }
-@keyframes arty-svg-length-68 { from { stroke-dashoffset: 68; } to { stroke-dashoffset: 0; } }
-.arty-animated .stroke-length-102 { animation: arty-svg-length-102 0s forwards; stroke-dasharray: 102; stroke-dashoffset: 102; }
-@keyframes arty-svg-length-102 { from { stroke-dashoffset: 102; } to { stroke-dashoffset: 0; } }
-.arty-animated .stroke-length-153 { animation: arty-svg-length-153 0s forwards; stroke-dasharray: 153; stroke-dashoffset: 153; }
-@keyframes arty-svg-length-153 { from { stroke-dashoffset: 153; } to { stroke-dashoffset: 0; } }
-.arty-animated .stroke-length-230 { animation: arty-svg-length-230 0s forwards; stroke-dasharray: 230; stroke-dashoffset: 230; }
-@keyframes arty-svg-length-230 { from { stroke-dashoffset: 230; } to { stroke-dashoffset: 0; } }
-.arty-animated .stroke-length-345 { animation: arty-svg-length-345 0s forwards; stroke-dasharray: 345; stroke-dashoffset: 345; }
-@keyframes arty-svg-length-345 { from { stroke-dashoffset: 345; } to { stroke-dashoffset: 0; } }
-.arty-animated .stroke-length-500 { animation: arty-svg-length-500 0s forwards; stroke-dasharray: 500; stroke-dashoffset: 500; }
-@keyframes arty-svg-length-500 { from { stroke-dashoffset: 500; } to { stroke-dashoffset: 0; } }
+.arty-animated .stroke-length-4 { animation: arty-svg-length-4 0s forwards; stroke-dasharray: 4; stroke-dashoffset: 4; opacity: 0; }
+@keyframes arty-svg-length-4 { 0% { stroke-dashoffset: 4; opacity: 0; } 1% { stroke-dashoffset: 4; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+.arty-animated .stroke-length-6 { animation: arty-svg-length-6 0s forwards; stroke-dasharray: 6; stroke-dashoffset: 6; opacity: 0; }
+@keyframes arty-svg-length-6 { 0% { stroke-dashoffset: 6; opacity: 0; } 1% { stroke-dashoffset: 6; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+.arty-animated .stroke-length-9 { animation: arty-svg-length-9 0s forwards; stroke-dasharray: 9; stroke-dashoffset: 9; opacity: 0; }
+@keyframes arty-svg-length-9 { 0% { stroke-dashoffset: 9; opacity: 0; } 1% { stroke-dashoffset: 9; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+.arty-animated .stroke-length-13 { animation: arty-svg-length-13 0s forwards; stroke-dasharray: 13; stroke-dashoffset: 13; opacity: 0; }
+@keyframes arty-svg-length-13 { 0% { stroke-dashoffset: 13; opacity: 0; } 1% { stroke-dashoffset: 13; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+.arty-animated .stroke-length-20 { animation: arty-svg-length-20 0s forwards; stroke-dasharray: 20; stroke-dashoffset: 20; opacity: 0; }
+@keyframes arty-svg-length-20 { 0% { stroke-dashoffset: 20; opacity: 0; } 1% { stroke-dashoffset: 20; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+.arty-animated .stroke-length-30 { animation: arty-svg-length-30 0s forwards; stroke-dasharray: 30; stroke-dashoffset: 30; opacity: 0; }
+@keyframes arty-svg-length-30 { 0% { stroke-dashoffset: 30; opacity: 0; } 1% { stroke-dashoffset: 30; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+.arty-animated .stroke-length-45 { animation: arty-svg-length-45 0s forwards; stroke-dasharray: 45; stroke-dashoffset: 45; opacity: 0; }
+@keyframes arty-svg-length-45 { 0% { stroke-dashoffset: 45; opacity: 0; } 1% { stroke-dashoffset: 45; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+.arty-animated .stroke-length-68 { animation: arty-svg-length-68 0s forwards; stroke-dasharray: 68; stroke-dashoffset: 68; opacity: 0; }
+@keyframes arty-svg-length-68 { 0% { stroke-dashoffset: 68; opacity: 0; } 1% { stroke-dashoffset: 68; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+.arty-animated .stroke-length-102 { animation: arty-svg-length-102 0s forwards; stroke-dasharray: 102; stroke-dashoffset: 102; opacity: 0; }
+@keyframes arty-svg-length-102 { 0% { stroke-dashoffset: 102; opacity: 0; } 1% { stroke-dashoffset: 102; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+.arty-animated .stroke-length-153 { animation: arty-svg-length-153 0s forwards; stroke-dasharray: 153; stroke-dashoffset: 153; opacity: 0; }
+@keyframes arty-svg-length-153 { 0% { stroke-dashoffset: 153; opacity: 0; } 1% { stroke-dashoffset: 153; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+.arty-animated .stroke-length-230 { animation: arty-svg-length-230 0s forwards; stroke-dasharray: 230; stroke-dashoffset: 230; opacity: 0; }
+@keyframes arty-svg-length-230 { 0% { stroke-dashoffset: 230; opacity: 0; } 1% { stroke-dashoffset: 230; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+.arty-animated .stroke-length-345 { animation: arty-svg-length-345 0s forwards; stroke-dasharray: 345; stroke-dashoffset: 345; opacity: 0; }
+@keyframes arty-svg-length-345 { 0% { stroke-dashoffset: 345; opacity: 0; } 1% { stroke-dashoffset: 345; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+.arty-animated .stroke-length-500 { animation: arty-svg-length-500 0s forwards; stroke-dasharray: 500; stroke-dashoffset: 500; opacity: 0; }
+@keyframes arty-svg-length-500 { 0% { stroke-dashoffset: 500; opacity: 0; } 1% { stroke-dashoffset: 500; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
 .arty-animated .animation-delay-0 { animation-delay: 0s; }
 .arty-animated .animation-duration-0 { animation-duration: 0.3s; }
 .arty-animated2x .animation-delay-0 { animation-delay: 0s; }
