@@ -20,7 +20,7 @@ Add this to document header:
     
 Add this to document before ```</body>``` or in header:
 
-    <script src="//code.simplesvg.com/latest/simple-svg.min.js"></script>
+    <script src="//code.simplesvg.com/1/1.0.0-beta5/simple-svg.min.js"></script>
     
 To use any icon from set write line like this (replace data-icon value with icon name):
 
