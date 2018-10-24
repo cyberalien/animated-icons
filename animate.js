@@ -1,6 +1,6 @@
 "use strict";
 
-const tools = require('simple-svg-tools');
+const tools = require('@iconify/tools');
 
 /**
  * Default options

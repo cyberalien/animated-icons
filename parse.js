@@ -4,7 +4,7 @@
 "use strict";
 
 const fs = require('fs');
-const tools = require('simple-svg-tools');
+const tools = require('@iconify/tools');
 const Animate = require('./animate');
 
 /**
