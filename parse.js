@@ -467,6 +467,10 @@ tools.ImportDir('original', {
         optimize: true
     });
 }).then(() => {
+    let round = value => {
+        return Math.round(value * 1000) / 1000;
+    };
+
     // Generate stylesheet
 //    let css = '@supports (animation: foo 1s) {\n';
     let css = '@supports (animation: foo 1s) and (not (-ms-ime-align: auto)) and (not (overflow: -webkit-marquee)) {\n';
@@ -484,12 +488,12 @@ tools.ImportDir('original', {
     });
     for (i = 0; i < animationSegments; i++) {
         // 1x speed
-        css += '.arty-animated .animation-delay-' + i + ' { animation-delay: ' + (i * animationTick) + 's; }\n';
-        css += '.arty-animated .animation-duration-' + i + ' { animation-duration: ' + (i * animationTick + minAnimationDuration) + 's; }\n';
+        css += '.arty-animated .animation-delay-' + i + ' { animation-delay: ' + round(i * animationTick) + 's; }\n';
+        css += '.arty-animated .animation-duration-' + i + ' { animation-duration: ' + round(i * animationTick + minAnimationDuration) + 's; }\n';
 
         // 2x speed
-        css += '.arty-animated2x .animation-delay-' + i + ' { animation-delay: ' + (i * animationTick) / 2 + 's; }\n';
-        css += '.arty-animated2x .animation-duration-' + i + ' { animation-duration: ' + (i * animationTick + minAnimationDuration) / 2 + 's; }\n';
+        css += '.arty-animated2x .animation-delay-' + i + ' { animation-delay: ' + round((i * animationTick) / 2) + 's; }\n';
+        css += '.arty-animated2x .animation-duration-' + i + ' { animation-duration: ' + round((i * animationTick + minAnimationDuration) / 2) + 's; }\n';
     }
 
     // Close @supports
