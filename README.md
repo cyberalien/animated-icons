@@ -20,7 +20,7 @@ Add this to document header:
     
 Add this to document before ```</body>``` or in header:
 
-    <script src="//code.iconify.design/1/1.0.0-beta7/iconify.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.0-rc6/iconify.min.js"></script>
     
 To use any icon from set write line like this (replace data-icon value with icon name):
 
