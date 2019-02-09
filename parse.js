@@ -160,9 +160,9 @@ let customAnimations = {
     link: {
         copy: {1: 0}
     },
-    unlink: {
-        copy: {1: 0}
-    },
+    // unlink: {
+    //     copy: {1: 0}
+    // },
     picture: {
         splitShortAnimations: false,
         extraDelay: {
@@ -247,6 +247,9 @@ let customAnimations = {
     	splitShortAnimations: false,
     	copy: {1: 0, 3: 2}
     },
+    'link-external': {
+        copy: {3: 2}
+    }
 };
 
 /**

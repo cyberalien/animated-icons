@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="192px" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>24-link-external</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Set-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="24x24-(208)" transform="translate(-216.000000, -8.000000)">
+            <g id="_slices" transform="translate(8.000000, 8.000000)"></g>
+            <g id="link_external" transform="translate(224.000000, 15.000000)" stroke="#000000" stroke-linecap="round" stroke-width="16">
+                <polyline id="Rectangle" stroke-linejoin="round" points="96 33 -2.27373675e-13 33 1.42108547e-14 177 144 177 144 81"></polyline>
+                <path d="M92,85 L168,9" id="Path-11"></path>
+                <path d="M176,1 L120,1" id="Path-3" stroke-linejoin="round"></path>
+                <path d="M176,1 L176,57" id="Path-3-Copy-5" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
