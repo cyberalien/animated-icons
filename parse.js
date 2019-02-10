@@ -199,6 +199,12 @@ let customAnimations = {
         copy: {3: 2},
         reverseAnimationOrder: true
     },
+    'panel-reversed-right': {
+        copy: {2: 1},
+        extraDelay: {
+            3: -3
+        }
+    },
     'arrow-left': {
         copy: {2: 1}
     },
@@ -358,6 +364,19 @@ let aliases = {
             name: 'filters-horizontal',
             rotate: 3,
             hFlip: true
+        }
+    ],
+    'reversed-right': [
+        {
+            name: 'reversed-left',
+            hFlip: true,
+        }, {
+            name: 'reversed-down',
+            rotate: 1,
+            vFlip: true,
+        }, {
+            name: 'reversed-up',
+            rotate: 3,
         }
     ],
 };
