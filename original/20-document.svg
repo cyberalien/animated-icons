@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>20-document</title>
+    <g id="Set-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="20x20-(176)" transform="translate(-1064.000000, -8.000000)">
+            <g id="_slices" transform="translate(8.000000, 8.000000)"></g>
+            <g id="document" transform="translate(1096.000000, 16.000000)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M96,40 L56,0 L0,0 L0,144 L96,144 C96,74.6666667 96,40 96,40 Z" id="Rectangle" stroke-width="16"></path>
+                <polyline id="Rectangle-Copy" stroke-width="8" points="52 4 52 44 92 44"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

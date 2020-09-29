@@ -52,6 +52,9 @@
 		"16-confirm": {
 			"body": "<path d=\"M8 64l48 48l64-96\" stroke-linecap=\"round\" stroke-width=\"16\" stroke=\"currentColor\" stroke-linejoin=\"round\" fill=\"none\" fill-rule=\"evenodd\" class=\"animation-delay-0 animation-duration-10 animate-stroke stroke-length-230\"/>"
 		},
+		"16-document": {
+			"body": "<g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M104 40L72 8H24v112h80V40z\" stroke-width=\"16\" class=\"animation-delay-0 animation-duration-11 animate-stroke stroke-length-500\"/><path stroke-width=\"8\" d=\"M68 12v32h32\" class=\"animation-delay-11 animation-duration-2 animate-stroke stroke-length-102\"/></g>"
+		},
 		"16-double-arrow-horizontal": {
 			"body": "<g stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M64 64h48\" class=\"animation-delay-0 animation-duration-8 animate-stroke stroke-length-68\"/><path d=\"M64 64H16\" class=\"animation-delay-0 animation-duration-8 animate-stroke stroke-length-68\"/><path d=\"M120 64L96 40\" stroke-linejoin=\"round\" class=\"animation-delay-8 animation-duration-5 animate-stroke stroke-length-45\"/><path d=\"M120 64L96 88\" stroke-linejoin=\"round\" class=\"animation-delay-8 animation-duration-5 animate-stroke stroke-length-45\"/><path d=\"M8 64l24-24\" stroke-linejoin=\"round\" class=\"animation-delay-8 animation-duration-5 animate-stroke stroke-length-45\"/><path d=\"M8 64l24 24\" stroke-linejoin=\"round\" class=\"animation-delay-8 animation-duration-5 animate-stroke stroke-length-45\"/></g>"
 		},
@@ -188,6 +191,11 @@
 		},
 		"20-confirm": {
 			"body": "<path d=\"M8 80l64 64l80-128\" stroke-linecap=\"round\" stroke-width=\"16\" stroke=\"currentColor\" stroke-linejoin=\"round\" fill=\"none\" fill-rule=\"evenodd\" class=\"animation-delay-0 animation-duration-10 animate-stroke stroke-length-345\"/>",
+			"width": 160,
+			"height": 160
+		},
+		"20-document": {
+			"body": "<g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M128 48L88 8H32v144h96V48z\" stroke-width=\"16\" class=\"animation-delay-0 animation-duration-11 animate-stroke stroke-length-650\"/><path stroke-width=\"8\" d=\"M84 12v40h40\" class=\"animation-delay-11 animation-duration-2 animate-stroke stroke-length-102\"/></g>",
 			"width": 160,
 			"height": 160
 		},
@@ -363,6 +371,11 @@
 		},
 		"24-confirm": {
 			"body": "<path d=\"M8 104l72 64L184 24\" stroke-linecap=\"round\" stroke-width=\"16\" stroke=\"currentColor\" stroke-linejoin=\"round\" fill=\"none\" fill-rule=\"evenodd\" class=\"animation-delay-0 animation-duration-10 animate-stroke stroke-length-345\"/>",
+			"width": 192,
+			"height": 192
+		},
+		"24-document": {
+			"body": "<g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\" fill-rule=\"evenodd\"><path d=\"M152 56L104 8H40v176h112V56z\" stroke-width=\"16\" class=\"animation-delay-0 animation-duration-11 animate-stroke stroke-length-650\"/><path stroke-width=\"8\" d=\"M100 12v48h48\" class=\"animation-delay-11 animation-duration-2 animate-stroke stroke-length-153\"/></g>",
 			"width": 192,
 			"height": 192
 		},
