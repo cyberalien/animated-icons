@@ -27,6 +27,8 @@
 @keyframes arty-svg-length-345 { 0% { stroke-dashoffset: 345; opacity: 0; } 1% { stroke-dashoffset: 345; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
 .arty-animated .stroke-length-500 { animation: arty-svg-length-500 0s forwards; stroke-dasharray: 500; stroke-dashoffset: 500; opacity: 0; }
 @keyframes arty-svg-length-500 { 0% { stroke-dashoffset: 500; opacity: 0; } 1% { stroke-dashoffset: 500; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+.arty-animated .stroke-length-650 { animation: arty-svg-length-650 0s forwards; stroke-dasharray: 650; stroke-dashoffset: 650; opacity: 0; }
+@keyframes arty-svg-length-650 { 0% { stroke-dashoffset: 650; opacity: 0; } 1% { stroke-dashoffset: 650; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
 .arty-animated .animation-delay-0 { animation-delay: 0s; }
 .arty-animated .animation-duration-0 { animation-duration: 0.3s; }
 .arty-animated2x .animation-delay-0 { animation-delay: 0s; }

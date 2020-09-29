@@ -49,7 +49,7 @@ function transform(attr) {
  *
  * @type {[number]}
  */
-let breakPoints = [4, 6, 9, 13, 20, 30, 45, 68, 102, 153, 230, 345, 500];
+let breakPoints = [4, 6, 9, 13, 20, 30, 45, 68, 102, 153, 230, 345, 500, 650];
 
 /**
  * Maximum number of animation segments
