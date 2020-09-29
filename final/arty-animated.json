@@ -881,6 +881,20 @@
 			"vFlip": true
 		}
 	},
+	"themes": {
+		"16": {
+			"prefix": "16-",
+			"title": "16"
+		},
+		"20": {
+			"prefix": "20-",
+			"title": "20"
+		},
+		"24": {
+			"prefix": "24-",
+			"title": "24"
+		}
+	},
 	"width": 128,
 	"height": 128
 }
